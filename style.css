@@ -3,25 +3,33 @@ body {
   background: linear-gradient(135deg, #1db954, #191414);
   color: white;
   margin: 0;
-  padding: 40px;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  height: 100%;
+  padding: 20px;
 }
 
 .player {
-  max-width: 320px;
-  margin: 0 auto;
+  text-align: center;
   background-color: #121212;
   padding: 30px;
   border-radius: 20px;
+  width: 300px;
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
-  text-align: center;
 }
 
 footer {
-  max-width: 320px;
-  margin: 20px auto 0 auto;
+  margin-top: 20px;
   font-size: 0.9em;
   color: #888;
   text-align: center;
+  width: 300px;
 }
 
 footer a {
