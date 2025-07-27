@@ -1,0 +1,39 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1db954, #191414);
+  color: white;
+  margin: 0;
+}
+
+.player {
+  text-align: center;
+  background-color: #121212;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+#fileInput {
+  margin-bottom: 15px;
+}
+
+.controls button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 5px;
+  background: #1db954;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#progressBar,
+#volumeControl {
+  width: 100%;
+  margin-top: 15px;
+}
