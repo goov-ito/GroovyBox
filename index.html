@@ -7,38 +7,36 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="player">
-    <h1>🎵 GROOVYBOX</h1>
-    
-    <input type="file" id="fileInput" multiple accept="audio/*" />
-    
-    <div id="trackName">No track loaded</div>
+  <div class="container">
+    <div class="player">
+      <h1>🎵 GROOVYBOX</h1>
+      
+      <input type="file" id="fileInput" multiple accept="audio/*" />
+      
+      <div id="trackName">No track loaded</div>
 
-    <div class="controls">
-      <button id="prevBtn">⏮️</button>
-      <button id="playPauseBtn">▶️</button>
-      <button id="nextBtn">⏭️</button>
+      <div class="controls">
+        <button id="prevBtn">⏮️</button>
+        <button id="playPauseBtn">▶️</button>
+        <button id="nextBtn">⏭️</button>
+      </div>
+
+      <input type="range" id="progressBar" value="0" />
+      <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" />
+
+      <audio id="audioPlayer"></audio>
     </div>
 
-    <input type="range" id="progressBar" value="0" />
-    <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" />
-
-    <audio id="audioPlayer"></audio>
+    <footer>
+      <p>
+        Built by Anele Mnguni |  
+        <a href="mailto:mngunianele6@gmail.com">Email</a> |  
+        <a href="https://www.linkedin.com/in/anele-mnguni-598996293" target="_blank" rel="noopener noreferrer">LinkedIn</a> |  
+        <a href="https://github.com/goov-ito" target="_blank" rel="noopener noreferrer">GitHub</a> |  
+        © 2025
+      </p>
+    </footer>
   </div>
-  <div class="container">
-  <div class="player">
-    
-  </div>
-  <footer>
-    <p>
-      Built by Anele Mnguni |  
-      <a href="mailto:mngunianele6@gmail.com">Email</a> |  
-      <a href="https://www.linkedin.com/in/anele-mnguni-598996293" target="_blank" rel="noopener noreferrer">LinkedIn</a> |  
-      <a href="https://github.com/goov-ito" target="_blank" rel="noopener noreferrer">GitHub</a> |  
-      © 2025
-    </p>
-  </footer>
-</div>
 
   <script src="script.js"></script>
 </body>
